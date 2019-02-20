@@ -1,0 +1,41 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.wearoft.beta.gateway",
+      "nativeLanguage": "en"
+    },
+    "jhipsterVersion": "5.8.1",
+    "applicationType": "gateway",
+    "baseName": "betaGateway",
+    "packageName": "com.wearoft.beta.gateway",
+    "packageFolder": "com/wearoft/beta/gateway",
+    "serverPort": "8080",
+    "authenticationType": "jwt",
+    "cacheProvider": "hazelcast",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "postgresql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": "eureka",
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "MDQzODhlZGI3YTYxYzc1YWNlODA0MDgzYTVkZWU0YThjYjE1ZTUyYjZhZGU5ZGM1YjkyOTE5MmMxYjkzYWIyZDk4N2NkN2YwNTFhYjM2NzEyMmFhYjViMGVlYjJhMjBmMmNlYzk3NDQwMTQ5MGJjMDM0YmVjMmMyZWJjYjg3OGM=",
+    "clientFramework": "angularX",
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "enableTranslation": true,
+    "nativeLanguage": "en",
+    "languages": [
+      "en",
+      "es"
+    ]
+  }
+}
