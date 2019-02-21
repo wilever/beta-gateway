@@ -21,9 +21,7 @@ logging:
 
 eureka:
     instance:
-        hostname: https://admin:beta123@beta-registry.herokuapp.com
-        prefer-ip-address: false
-        #prefer-ip-address: true
+        prefer-ip-address: true
     client:
         service-url:
             defaultZone: http://admin:${jhipster.registry.password}@localhost:8761/eureka/
