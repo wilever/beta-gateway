@@ -9,12 +9,15 @@
   ],
   "env": {
     "JHIPSTER_REGISTRY_URL": {
+      "value": "https://admin:beta123@beta-registry.herokuapp.com",
       "required": true
     },
     "MAVEN_CUSTOM_OPTS": {
+      "value": "-Pprod,heroku -DskipTests",
       "required": true
     },
     "NPM_CONFIG_PRODUCTION": {
+      "value": "false",
       "required": true
     }
   },
