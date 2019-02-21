@@ -36,6 +36,8 @@
     "languages": [
       "en",
       "es"
-    ]
+    ],
+    "herokuAppName": "beta-gateway",
+    "herokuDeployType": "git"
   }
 }

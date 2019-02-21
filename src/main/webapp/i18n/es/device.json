@@ -1,0 +1,23 @@
+{
+    "betaGatewayApp": {
+        "device": {
+            "home": {
+                "title": "Devices",
+                "createLabel": "Crear nuevo Device",
+                "createOrEditLabel": "Crear o editar Device"
+            },
+            "created": "Un nuevo Device ha sido creado con el identificador {{ param }}",
+            "updated": "Un Device ha sido actualizado con el identificador {{ param }}",
+            "deleted": "Un Device ha sido eliminado con el identificador {{ param }}",
+            "delete": {
+                "question": "¿Seguro que quiere eliminar Device {{ id }}?"
+            },
+            "detail": {
+                "title": "Device"
+            },
+            "name": "Name",
+            "description": "Description",
+            "accountAddress": "Account Address"
+        }
+    }
+}
