@@ -1,0 +1,49 @@
+{
+    "name": "Customer",
+    "fields": [
+        {
+            "fieldName": "firstName",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "lastName",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "organization",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "email",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "phoneNumber",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "accountAddress",
+            "fieldType": "String"
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "one-to-one",
+            "relationshipName": "user",
+            "otherEntityName": "myUser",
+            "otherEntityField": "id",
+            "ownerSide": true,
+            "otherEntityRelationshipName": "customer"
+        }
+    ],
+    "changelogDate": "20190220205324",
+    "javadoc": "The Customer entity.",
+    "entityTableName": "customer",
+    "dto": "no",
+    "pagination": "pagination",
+    "service": "serviceImpl",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "applications": "*"
+}

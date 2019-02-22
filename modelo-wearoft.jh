@@ -1,0 +1,42 @@
+
+/**
+ * The Customer entity.
+ */
+entity Customer {
+	
+	firstName String,
+	lastName String,
+    organization String,
+	email String,
+	phoneNumber String,
+	accountAddress String
+}
+entity MyUser {
+	name String
+}
+/**
+ * The Device entity.
+ */
+entity Device {
+	name String,
+	description String,
+	accountAddress String,
+}
+
+
+
+relationship OneToOne {
+	Customer{user} to MyUser
+}
+
+
+// Set pagination options
+paginate Customer with pagination
+
+// Use Data Transfert Objects (DTO)
+// dto * with mapstruct
+
+// Set service options to all except few
+service all with serviceImpl 
+// Set an angular suffix
+// angularSuffix * with mySuffix

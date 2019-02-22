@@ -1,0 +1,21 @@
+{
+    "betaGatewayApp": {
+        "myUser": {
+            "home": {
+                "title": "My Users",
+                "createLabel": "Create a new My User",
+                "createOrEditLabel": "Create or edit a My User"
+            },
+            "created": "A new My User is created with identifier {{ param }}",
+            "updated": "A My User is updated with identifier {{ param }}",
+            "deleted": "A My User is deleted with identifier {{ param }}",
+            "delete": {
+                "question": "Are you sure you want to delete My User {{ id }}?"
+            },
+            "detail": {
+                "title": "My User"
+            },
+            "name": "Name"
+        }
+    }
+}
